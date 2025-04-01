@@ -45,7 +45,7 @@ main_placeholder = st.empty()
 
 # ✅ Initialize the client (no parameters here)
 client = InferenceClient(model="mistralai/Mistral-7B-Instruct-v0.1", 
-    token=os.getenv("huggingface_api_key")  # ✅ Uses API key from .env
+    token=st.secrets["huggingface"]["api_key"]  # ✅ Fetch API key from secrets
 )
 
 # ✅ Create a Custom LLM Wrapper
