@@ -6,9 +6,9 @@ tiktoken==0.7.0
 faiss-cpu==1.10.0
 libmagic==1.0
 python-magic==0.4.27
-python-magic-bin==0.4.14
 huggingface-hub==0.30.0
 langchain-huggingface==0.1.2
+
 
 
 
